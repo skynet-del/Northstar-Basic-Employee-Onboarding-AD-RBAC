@@ -1,0 +1,9 @@
+Ticket number: NMG-0047
+Affected user: Jane Cooper (jcooper@NMG.com)
+Issue reported: Jane was unable to access HR shared resources. Her desktop policies, mapped drives, and restrictions also differed from those of her HR teammates.
+Root cause: Jane Cooper’s account was incorrectly placed in the Operations OU and was a member of the Operations-Users security group. She was not a member of the HR-Users security group, even though her current role is HR Payroll Specialist. The incorrect OU placement caused the wrong policies and mapped drives to be applied, while the incorrect security-group membership prevented her from receiving access to HR resources.
+Fix applied: Jane’s account was moved from the Operations OU to the HR OU. She was removed from the Operations-Users security group and added to the HR-Users security group. Her job title and department attributes were updated to reflect her HR Payroll Specialist role. Her Manager attribute was not changed because the correct reporting manager was not confirmed in the ticket. A separate ticket should be submitted if that attribute needs to be reviewed or updated.
+Verification: I confirmed that Jane’s account appeared inside the HR OU, that HR-Users was listed in her group memberships, and that she appeared in the HR-Users group’s member list. I also confirmed that she was no longer a member of Operations-Users.
+Date resolved: July 26, 2026
+Resolved by: IT New Hire
+
