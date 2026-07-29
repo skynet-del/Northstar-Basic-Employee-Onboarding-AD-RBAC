@@ -1,0 +1,5 @@
+Domain name: NMG.com
+Domain Controller name: (WIN-D15O2QQ4IGH)
+Static IP: (192.168.4.123)
+Date completed: (07/25/2026)
+________________________________________
