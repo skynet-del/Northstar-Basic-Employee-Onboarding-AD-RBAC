@@ -1,13 +1,15 @@
-# Northstar-Basic-Employee-Onboarding-AD-RBAC
-## Problem Statement
+# 🏥 Northstar-Basic-Employee-Onboarding-AD-RBAC
+**Active Directory • Windows Server • IAM • RBAC • Troubleshooting • Incident Response**
+> A hands-on identity and access management lab documenting the design, deployment, and troubleshooting of a fictional healthcare organization's Active Directory environment.
+## 🎯 Problem Statement
 
 Northstar Medical Group was operating with a poorly organized identity environment that lacked a consistent Active Directory structure and standardized user provisioning process. User accounts were being managed manually without clearly defined organizational units, naming standards, or security group assignments. This created unnecessary access-control risks and made it difficult to determine which users should have access to specific departmental resources. For a healthcare organization, inconsistent identity and access management could also create potential HIPAA compliance and security concerns.
 
-## Solution Overview
+## 🛠️ Solution Overview
 
 I built a Windows Server Active Directory environment for the fictional Northstar Medical Group using the NMG.com domain. I designed a department-based organizational structure using separate Organizational Units for Finance, HR, IT, and Operations. Each department was assigned a corresponding security group to implement Role-Based Access Control and support the Principle of Least Privilege. I provisioned 15 user accounts using consistent SAMAccountName, UPN, department, and job-title standards. I also investigated and resolved an identity and access incident involving a user who had been placed in the wrong OU and security group. The completed environment provides a more organized, scalable, and auditable approach to identity management.
 
-## Architecture and Access Model
+## 🏗️ Architecture and Access Model
 
 Northstar Medical Group was organized into four departmental Organizational Units:
 
@@ -20,41 +22,40 @@ Each department was assigned a corresponding global security group to support Ro
 
 See the complete [RBAC structure](Documentation/RBAC-Structure.md).
 
-## Tools and Technologies
+## 🧰 Tools and Technologies
 
-- Oracle VirtualBox
-- Windows Server
-- Active Directory Domain Services
-- Active Directory Users and Computers
-- Group Policy
-- Command Prompt
-- Role-Based Access Control (RBAC)
-- GitHub
-- Markdown
+- 🪟 Windows Server
+- 🏢 Active Directory Domain Services
+- 👥 Active Directory Users and Computers
+- 🖥️ Oracle VirtualBox
+- 📜 Group Policy
+- ⌨️ Command Prompt
+- 🔐 Role-Based Access Control (RBAC)
+- 🐙 GitHub
+- 📝 Markdown
 
-## Project Timeline
+## 📅 Project Timeline
 
-### Day 1 — Domain Infrastructure
+### 🖥️ Day 1 — Domain Infrastructure
 
 Created a Windows Server virtual machine and configured a static IP address for the server. Installed Active Directory Domain Services and promoted the server to a Domain Controller for the newly created NMG.com domain. Verified the health and functionality of the domain controller using Active Directory tools and the `dcdiag` command.
 
-### Day 2 — Organizational Design
+### 🗂️ Day 2 — Organizational Design
 
 Created separate Organizational Units for Finance, HR, IT, and Operations to organize users by department. Created corresponding global security groups for each department to establish the foundation for Role-Based Access Control. Verified that each security group was located within the appropriate OU and documented the purpose of the organizational structure.
 
-### Day 3 — Identity Provisioning and RBAC
+### 👥 Day 3 — Identity Provisioning and RBAC
 
 Provisioned 15 Active Directory user accounts across the four business departments using a standardized naming convention. Configured each account with consistent usernames, UPNs, job titles, and department attributes. Assigned each user to the appropriate departmental security group to implement RBAC and support least-privilege access.
 
-### Day 4 — Identity and Access Incident
-
+### 🎫 Day 4 — Identity and Access Incident
 Investigated support ticket NMG-0047 involving Jane Cooper, an HR Payroll Specialist who could not access HR resources and was receiving incorrect desktop policies and mapped drives. During the investigation, I discovered that her account had been placed in the Operations OU and assigned to the Operations-Users security group. I corrected her OU placement, removed the incorrect group membership, added her to HR-Users, and updated her job title and department attributes. The changes were verified by reviewing her OU placement and security group memberships.
 
-### Day 5 — Documentation and Portfolio Packaging
+### 📦 Day 5 — Documentation and Portfolio Packaging
 
 Organized the lab documentation, screenshots, RBAC structure, and incident-resolution report into a dedicated GitHub repository. Created a professional README that documents the business problem, technical solution, project timeline, tools used, and major accomplishments. The repository serves as a case study demonstrating the Active Directory environment and the troubleshooting process used during the project.
 
-## Key Accomplishments
+## 🏆 Key Accomplishments
 
 - Built the NMG.com Active Directory domain from scratch.
 - Configured and promoted a Windows Server system to a Domain Controller.
@@ -67,7 +68,7 @@ Organized the lab documentation, screenshots, RBAC structure, and incident-resol
 - Documented the investigation, root cause, corrective actions, and verification process.
 - Organized technical evidence and documentation into a professional GitHub case study.
 
-## Repository Structure
+## 📁 Repository Structure
 
 ```text
 .
@@ -89,9 +90,9 @@ Organized the lab documentation, screenshots, RBAC structure, and incident-resol
 └── README.md
 ```
 
-## Featured Incident — NMG-0047
+## 🚨 Featured Incident — NMG-0047
 
-### Original Support Ticket
+### 📋 Original Support Ticket
 
 ![NMG-0047 Support Ticket](Incident-Reports/NMG-0047-Ticket.png)
 
@@ -103,10 +104,10 @@ The account was moved to the HR OU, removed from Operations-Users, and added to 
 
 [Read the complete incident-resolution report](Incident-Reports/NMG-0047-Resolution.txt)
 
-## Video Walkthrough
+## 🎥 Video Walkthrough
 
 Video walkthrough coming in Day 6.
 
-## Disclaimer
+## ℹ️ Disclaimer
 
 This project was completed in an isolated lab environment for educational and portfolio purposes. Northstar Medical Group, its users, systems, and support incidents are fictional.
