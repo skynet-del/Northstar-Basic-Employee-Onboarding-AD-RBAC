@@ -94,7 +94,7 @@ Organized the lab documentation, screenshots, RBAC structure, and incident-resol
 
 ### 📋 Original Support Ticket
 
-![NMG-0047 Support Ticket](Incident-Reports/Ticket number NMG-0047.png)
+![NMG-0047 Support Ticket] (Incident-Reports/Ticket number NMG-0047.png)
 
 Jane Cooper reported that she was unable to access HR shared resources and that her desktop policies, mapped drives, and restrictions differed from those of her HR teammates.
 
