@@ -102,7 +102,7 @@ My investigation identified two related configuration problems: Jane's account w
 
 The account was moved to the HR OU, removed from Operations-Users, and added to HR-Users. Her job title and department attributes were also updated to reflect her HR Payroll Specialist role.
 
-[Read the complete incident-resolution report](Incident-Reports/NMG-0047-Resolution.txt)
+[Read the complete incident-resolution report](Incident-Reports/Ticket number NMG-0047.txt)
 
 ## 🎥 Video Walkthrough
 
