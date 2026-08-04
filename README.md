@@ -102,7 +102,7 @@ My investigation identified two related configuration problems: Jane's account w
 
 The account was moved to the HR OU, removed from Operations-Users, and added to HR-Users. Her job title and department attributes were also updated to reflect her HR Payroll Specialist role.
 
-[Read the complete incident-resolution report]([Incident-Reports/Ticket number NMG-0047.txt](https://github.com/skynet-del/Northstar-Basic-Employee-Onboarding-AD-RBAC/blob/8bd366aa4e9bc4e09d19507d4a6141fc8abbb5ab/Incident-Reports/Ticket%20number%20NMG-0047.txt))
+[Read the complete incident-resolution report](https://github.com/skynet-del/Northstar-Basic-Employee-Onboarding-AD-RBAC/blob/8bd366aa4e9bc4e09d19507d4a6141fc8abbb5ab/Incident-Reports/Ticket%20number%20NMG-0047.txt)
 
 ## 🎥 Video Walkthrough
 
