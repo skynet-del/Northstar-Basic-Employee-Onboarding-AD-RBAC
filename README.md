@@ -94,7 +94,7 @@ Organized the lab documentation, screenshots, RBAC structure, and incident-resol
 
 ### 📋 Original Support Ticket
 
-![NMG-0047 Support Ticket](https://github.com/skynet-del/Northstar-Basic-Employee-Onboarding-AD-RBAC/blob/1facc1a1b56ac78d5010395712185d30ca0673df/Incident-Reports/Ticket%20number%20NMG-0047.png)
+[NMG-0047 Support Ticket](https://github.com/skynet-del/Northstar-Basic-Employee-Onboarding-AD-RBAC/blob/1facc1a1b56ac78d5010395712185d30ca0673df/Incident-Reports/Ticket%20number%20NMG-0047.png)
 
 Jane Cooper reported that she was unable to access HR shared resources and that her desktop policies, mapped drives, and restrictions differed from those of her HR teammates.
 
@@ -102,7 +102,7 @@ My investigation identified two related configuration problems: Jane's account w
 
 The account was moved to the HR OU, removed from Operations-Users, and added to HR-Users. Her job title and department attributes were also updated to reflect her HR Payroll Specialist role.
 
-![Read the complete incident-resolution report](Incident-Reports/Ticket number NMG-0047.txt)
+[Read the complete incident-resolution report](Incident-Reports/Ticket number NMG-0047.txt)
 
 ## 🎥 Video Walkthrough
 
