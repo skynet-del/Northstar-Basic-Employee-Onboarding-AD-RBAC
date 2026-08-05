@@ -107,7 +107,7 @@ The account was moved to the HR OU, removed from Operations-Users, and added to 
 
 ## 🎥 Video Walkthrough
 
-Video walkthrough coming in Day 6.
+![Hands On Walkthrough](https://www.loom.com/share/63113e74a9df4afb9a4b1a01c90b7d3b)
 
 ## ℹ️ Disclaimer
 
